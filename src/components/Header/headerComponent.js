@@ -10,9 +10,9 @@ class Header extends Component {
         return (  
             <div className="nav-container">
                 <ul className = "list">
-                    <li className="nav-item">About</li>
-                    <li className="nav-item">Work</li> 
-                    <li className="nav-item">Contact Me</li>
+                    <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#work">Work</a></li> 
+                    <li className="nav-item"><a className="nav-link" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         );

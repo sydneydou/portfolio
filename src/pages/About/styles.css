@@ -1,0 +1,29 @@
+.about-container{
+    text-align: center;
+    padding-top: 2em;
+}
+.headshot{
+    padding-top: 2em;
+    padding-bottom:2em;
+   width:21em
+}
+.title{
+    padding-bottom:1em;
+}
+.headshot-container{
+    width:50%
+}
+.description-container{
+    width:60%;
+    line-height: 2em;
+}
+
+.about-flex{
+    display: flex;
+}
+
+.about-flex p {
+    width:80%;
+    padding-top: 2em;
+    padding-bottom:2em;
+}

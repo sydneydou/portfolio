@@ -13,6 +13,11 @@
 
     padding-left: 4em;
     z-index: 100;
-    color:white;
+    
     font-weight: 100;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:white;
 }

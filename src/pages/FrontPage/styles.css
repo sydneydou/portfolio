@@ -8,11 +8,10 @@
     text-align: center;
     
 }
-
-.img{
+ .img{
    
     background-image: url("../../assets/images/head.webp");
     background-size:cover;
     height:100vh;
-}
+} 
 
