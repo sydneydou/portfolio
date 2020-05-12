@@ -1,0 +1,18 @@
+
+.title-name{
+    
+    height:100vh;
+    color:white;
+    margin:0;
+    padding: 200px 0;
+    text-align: center;
+    
+}
+
+.img{
+   
+    background-image: url("../../assets/images/head.webp");
+    background-size:cover;
+    height:100vh;
+}
+

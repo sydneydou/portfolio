@@ -1,0 +1,20 @@
+import React from 'react';
+import './styles.css';
+import Header from "../../components/Header"
+
+function FrontPage() {
+  return (
+    <div className="img">
+      <Header />
+      <div className = "front-page">
+        <div className="title-name">
+            <h1>Hi, I'm Sydney!</h1>
+            <h2>Front End Developer. Professional Problem Solver.</h2>
+        </div>
+       
+        </div>
+    </div>
+  );
+}
+
+export default FrontPage;

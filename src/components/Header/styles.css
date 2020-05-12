@@ -1,0 +1,18 @@
+.nav-container{
+    background-color:transparent;
+    padding-right:3em;
+    padding-top: 2em;
+}
+.list{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.nav-item{
+
+    padding-left: 4em;
+    z-index: 100;
+    color:white;
+    font-weight: 100;
+}
