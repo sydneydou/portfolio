@@ -1,6 +1,7 @@
 .about-container{
     text-align: center;
     padding-top: 2em;
+
 }
 .headshot{
     padding-top: 2em;
@@ -9,6 +10,7 @@
 }
 .title{
     padding-bottom:1em;
+    font-size: 2.3em;
 }
 .headshot-container{
     width:50%
