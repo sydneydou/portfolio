@@ -1,18 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import FrontPage from './pages/FrontPage'
-import * as serviceWorker from './serviceWorker';
-import './index.css'
-import About from './pages/About'
+import React from "react";
+import ReactDOM from "react-dom";
+import FrontPage from "./pages/FrontPage";
+import * as serviceWorker from "./serviceWorker";
+import "./index.css";
+import About from "./pages/About";
+import Work from "./pages/Work";
 
 ReactDOM.render(
   <React.StrictMode>
-    
     <FrontPage />
     <About />
-   
+    <Work />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import { Parallax } from "react-parallax";
 
 function About() {
   return (
@@ -24,14 +23,6 @@ function About() {
           </p>
         </div>
       </div>
-      <Parallax
-        blur={0}
-        bgImage={require("../../assets/images/leaf-banner.webp")}
-        bgImageAlt="banner image"
-        strength={400}
-      >
-        <div className="leaf-banner"></div>
-      </Parallax>
     </div>
   );
 }

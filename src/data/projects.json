@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Shop This City",
+      "tools": ["React Native"],
+      "description": "Bridging the gap between shopping online and in stores"
+    },
+    {
+      "title": "Boomtown",
+      "tools": ["ReactJS", "CSS"],
+      "description": "Sharing environment"
+    }
+  ]
+}
