@@ -1,0 +1,25 @@
+.project-image {
+  height: 100%;
+  max-width: 100%;
+  filter: grayscale(40%);
+  object-fit: cover;
+  object-position: left;
+}
+
+.single-project:hover {
+  filter: grayscale(80%);
+}
+.single-project {
+  width: 50%;
+  text-align: center;
+  border: 1px solid slategray;
+  height: 31em;
+  position: relative;
+  margin-bottom: 4em;
+}
+.text-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+}

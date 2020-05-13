@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-light;
+  src: url(./assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

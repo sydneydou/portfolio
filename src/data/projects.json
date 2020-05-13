@@ -1,14 +1,22 @@
 {
   "projects": [
     {
+      "id": 0,
       "title": "Shop This City",
       "tools": ["React Native"],
-      "description": "Bridging the gap between shopping online and in stores"
+      "description": "Bridging the gap between shopping online and in stores",
+      "images": [
+        "https://user-images.githubusercontent.com/43800526/65062503-ff83dc00-d930-11e9-9c48-b04a886a7197.gif"
+      ]
     },
     {
+      "id": 1,
       "title": "Boomtown",
       "tools": ["ReactJS", "CSS"],
-      "description": "Sharing environment"
+      "description": "Sharing environment",
+      "images": [
+        "https://github.com/sydneydou/boomtown/blob/master/assets/boom2.png?raw=true"
+      ]
     }
   ]
 }
