@@ -20,6 +20,7 @@ class Work extends Component {
             <h1 className="portfolio-text">Portfolio</h1>
           </div>
         </Parallax>
+
         <Projects projects={projects} />
       </div>
     );

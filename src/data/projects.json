@@ -7,7 +7,8 @@
       "description": "Bridging the gap between shopping online and in stores",
       "images": [
         "https://shopthiscity.ca/wp-content/uploads/2019/10/STC-white-logo.png"
-      ]
+      ],
+      "jobTitle": "IOS / Android Developer"
     },
     {
       "id": 1,
@@ -16,7 +17,8 @@
       "description": "Sharing environment",
       "images": [
         "https://github.com/sydneydou/boomtown/blob/master/assets/boom2.png?raw=true"
-      ]
+      ],
+      "jobTitle": "React Developer"
     },
     {
       "id": 2,
@@ -25,7 +27,8 @@
       "description": "Find underground events in your city",
       "images": [
         "https://raw.githubusercontent.com/sydneydou/downlow-meteor-app/master/public/assets/home.png"
-      ]
+      ],
+      "jobTitle": "Project Manager / Front End Developer"
     }
   ]
 }

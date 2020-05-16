@@ -31,7 +31,7 @@ class SingleProject extends Component {
           ) : (
             <div className="name-box">
               <h1>{val.title}</h1>
-              <p>{val.description}</p>
+              <p>{val.jobTitle}</p>
             </div>
           )}
         </div>
