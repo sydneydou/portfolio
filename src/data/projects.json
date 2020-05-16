@@ -6,7 +6,7 @@
       "tools": ["React Native"],
       "description": "Bridging the gap between shopping online and in stores",
       "images": [
-        "https://user-images.githubusercontent.com/43800526/65062503-ff83dc00-d930-11e9-9c48-b04a886a7197.gif"
+        "https://shopthiscity.ca/wp-content/uploads/2019/10/STC-white-logo.png"
       ]
     },
     {
@@ -16,6 +16,15 @@
       "description": "Sharing environment",
       "images": [
         "https://github.com/sydneydou/boomtown/blob/master/assets/boom2.png?raw=true"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The DownLow",
+      "tools": ["ReactJS", "Meteor", "Node", "MongoDB"],
+      "description": "Find underground events in your city",
+      "images": [
+        "https://raw.githubusercontent.com/sydneydou/downlow-meteor-app/master/public/assets/home.png"
       ]
     }
   ]

@@ -1,0 +1,57 @@
+.single-project {
+  margin-bottom: 10em;
+  height: 22em;
+  width: 100%;
+  text-align: center;
+  filter: opacity(88%);
+  margin-bottom: 4em;
+}
+
+.single-container {
+  position: relative;
+  width: 42%;
+  border-radius: 10%;
+  height: 22em;
+  margin: 1.5em;
+  overflow: hidden;
+}
+.hide-img {
+  visibility: hidden;
+  transition: visibility 1s ease-out;
+  opacity: 0;
+}
+.name-box {
+  transition: 2s ease-in;
+  position: absolute;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding-top: 26%;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  background-color: #a29aab;
+  height: 100%;
+}
+
+.name-box:hover {
+  filter: opacity(100%) !important;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.project-image {
+  height: 100%;
+  min-width: 100%;
+  filter: opacity(95%);
+  object-fit: contain;
+  object-position: center;
+  background-color: cadetblue;
+}

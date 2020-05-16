@@ -16,7 +16,9 @@ function FrontPage() {
         <div className="front-page">
           <div className="title-name">
             <h1>Hi, I'm Sydney!</h1>
-            <h2>Front End Developer. Professional Problem Solver.</h2>
+            <h2>
+              Front End Developer. App Developer. Professional Problem Solver.
+            </h2>
           </div>
         </div>
       </div>

@@ -21,14 +21,20 @@ class SingleProject extends Component {
     console.log(this.state.hover);
     return (
       <div
-        className="single-project"
-        key={val.id}
+        className="single-container"
         onMouseEnter={this.handleBoxToggle}
         onMouseLeave={this.mouseLeave}
       >
-        <img src={val.images[0]} className="project-image" />
-        <h1>{this.state.hover ? val.title : ""}</h1>
-        <p>{this.state.hover ? val.description : ""}</p>
+        <div className="single-project" key={val.id}>
+          {!this.state.hover ? (
+            <img src={val.images[0]} className={"project-image"} />
+          ) : (
+            <div className="name-box">
+              <h1>{val.title}</h1>
+              <p>{val.description}</p>
+            </div>
+          )}
+        </div>
       </div>
     );
   }
