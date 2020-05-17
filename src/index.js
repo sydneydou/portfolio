@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FrontPage from "./pages/FrontPage";
+
 import * as serviceWorker from "./serviceWorker";
 import "./index.css";
-import About from "./pages/About";
-import Work from "./pages/Work";
+import SingleProject from "./pages/SingleProjectPage";
+import All from "./pages/All";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FrontPage />
-    <About />
-    <Work />
+    <Router>
+      <Route exact path="/" component={All} />
+      <Route path="/single" component={SingleProject} />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

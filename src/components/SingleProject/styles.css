@@ -32,7 +32,7 @@
   width: 100%;
   transform: translate(-50%, -50%);
   font-family: Montserrat;
-
+  text-transform: uppercase;
   background-image: linear-gradient(to bottom right, #003369, #5f7085);
   height: 100%;
 }
